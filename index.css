@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+    text-align: center;
+}
+.sor{
+    justify-content: center;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.sor>div{
+    border: 1px black solid;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    background-color: azure;
+    margin-right: 10px;
+}
+
+button{
+    color: white;
+    background-color: darkgreen;
+    margin-top: 20px;
+}
+span{
+    font-size: large;
+}
+

@@ -1,5 +1,5 @@
-function valasz(elem) {
 
+function valasz(elem) {
     let answers = {
         hun: "Budapest",
         can: "Ottawa",
@@ -8,6 +8,14 @@ function valasz(elem) {
         mex: "Mexikóváros",
         per: "Lima"
     };
-    document.getElementById(elem).innerText = answers[elem];
+    let aktual = document.getElementById(elem);
+    if (aktual.innerText == ""){
+        document.getElementById(elem).innerText = answers[elem];
+    }
+    else{
+        document.getElementById(elem).innerText = "";
+    }
+    
+
 }
 

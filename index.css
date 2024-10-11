@@ -4,6 +4,8 @@ body{
 }
 .sor{
     display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 .sor>div{
     border: 1px black solid;
